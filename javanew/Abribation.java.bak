@@ -8,8 +8,8 @@ class Abribation
 		System.out.println("Enter Name for Abribation ");
 		String name=sc.nextLine().trim();
 		name.replace("  "," ");
-		//String str[]=name.split(" ");
-		//String res="";
+		String str[]=name.split(" ");
+		String res="";
 		int len=str.length;
 		for(int i=0;i<len-1;i++)
 		{
